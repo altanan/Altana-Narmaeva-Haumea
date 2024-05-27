@@ -1,27 +1,20 @@
 var today = new Date();
 
-console.log*today;
+console.log(today);
 
-var thisYear = getFullYear;
+var thisYear = today.getFullYear();
 
-var footer = document.querySelector('footer');
+var skills = ["Javascript", "HTML", "CSS"];
 
-var copyright = document.createElement('p');
+var skillsSection = document.getElementById('skills');
 
-copyright.innerHTML = `&copy; Your Name ${thisYear}`;
-
-footer.appendChild(copyright);
-
-var skills = ["JavaScript", "HTML", "CSS", "Adobe Photoshop", "GitHub"];
-
-var skillsSection = document.getElementById('skills-section');
-
-var skillsList = skillsSection.querySelector('ul');
+var skillsList = document.querySelector('#skills ul');
+console.log("skillsList:", skillsList); 
 
 for (var i = 0; i < skills.length; i++) {
     var skill = document.createElement('li');
-     
-    skill.innerText = skills[i];
     
+    skill.innerText = skills[i];
+
     skillsList.appendChild(skill);
 }
