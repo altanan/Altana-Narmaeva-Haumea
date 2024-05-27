@@ -1,0 +1,41 @@
+
+body {
+    background-color: #e0d5b0; 
+    font-family: 'Barlow'; 
+}
+ 
+.section-class {
+    text-align: center; 
+}
+
+h1, h2, h3 { 
+    font-size: 24px; 
+    font-weight: bold; 
+    font-family: 'Barlow;
+}
+
+nav {
+    width: 100%;
+    background-color: #c5a582;
+    padding: 10px ;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a:link, a:visited {
+    color: #382e21;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #b34a00;
+}
