@@ -20,7 +20,7 @@ var skillsList = skillsSection.querySelector('ul');
 
 for (var i = 0; i < skills.length; i++) {
     var skill = document.createElement('li');
-    
+     
     skill.innerText = skills[i];
     
     skillsList.appendChild(skill);
